@@ -28,7 +28,7 @@ export default function Home() {
     return dataResult;
   };
 
-  const CheckData = async (number = 1) => {
+  const checkData = async (number = 1) => {
     const local = localStorage.getItem("data");
 
     if (local) {
@@ -67,7 +67,7 @@ export default function Home() {
         active={number === pagination}
         onClick={() => {
           setPagination(number);
-          CheckData(number);
+          checkData(number);
         }}
       >
         {number}
@@ -76,7 +76,8 @@ export default function Home() {
   }
 
   useEffect(() => {
-    CheckData();
+    checkData();
+    // eslint-disable-next-line
   }, []);
 
   return (

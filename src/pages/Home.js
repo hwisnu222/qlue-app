@@ -51,10 +51,9 @@ export default function Home() {
 
       const dataStore = localStorage.getItem("data");
       const dataParse = JSON.parse(dataStore);
-      console.log(dataParse);
+
       setData(dataParse[number - 1]);
       setLoading(false);
-      console.log("done get data");
     }
   };
 

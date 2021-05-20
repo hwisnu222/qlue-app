@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <div>
+    <div className="sticky-top">
       <Navbar className="navbar mb-3">
         <Navbar.Brand href="#home">
           <h3 className="text-white">Qlue App</h3>

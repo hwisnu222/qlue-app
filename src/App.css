@@ -32,14 +32,35 @@ thead {
 .card-menu {
   border-radius: 20px;
   background: #ffffff;
-  padding: 20px;
+  padding: 30px 20px;
+  border-left: 4px solid #2196f3;
 }
 
 .people-count {
   font-size: 5em;
 }
 
+.people-text {
+  font-size: 0.2em;
+}
+
 .mass-axis {
   margin: 24px;
   padding: 24px;
+}
+
+.icon {
+  padding: 12px;
+  border-radius: 10px;
+  background: #2196f3;
+  color: #ffffff;
+}
+.icon img {
+  color: #ffffff;
+}
+.loading-page {
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100vw;
 }
